@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "orm",
+    "orm_derive",
+    "example",
+]

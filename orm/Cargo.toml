@@ -1,0 +1,10 @@
+[package]
+name = "orm"
+version = "0.1.0"
+authors = ["Philipp Mandler <info@philipp-mandler.com>"]
+edition = "2018"
+
+[dependencies]
+itertools = "0.8.0"
+log = "0.4.7"
+postgres = "0.15.2"

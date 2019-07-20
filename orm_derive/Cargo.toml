@@ -1,0 +1,17 @@
+[package]
+name = "orm_derive"
+version = "0.1.0"
+authors = ["Philipp Mandler <info@philipp-mandler.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+failure = "0.1.5"
+syn = "0.15.39"
+quote = "0.6.12"
+proc-macro2 = "0.4.30"
+
+[dev-dependencies]
+orm = { path = "../orm" }

@@ -1,0 +1,14 @@
+[package]
+name = "orm-example"
+version = "0.1.0"
+authors = ["Philipp Mandler <info@philipp-mandler.com>"]
+edition = "2018"
+
+[dependencies]
+dotenv = "0.14.1"
+orm = { path = "../orm" }
+orm_derive = { path = "../orm_derive" }
+proc-macro2 = "0.4.30"
+postgres = "0.15.2"
+log = "0.4.7"
+env_logger = "0.6.2"
